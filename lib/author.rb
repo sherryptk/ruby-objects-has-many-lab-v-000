@@ -2,7 +2,7 @@ class Author
   attr_accessor :name, :posts
 
   @@post_count = 0
-  
+
   def initialize(name)
     @name = name
     @posts = []
@@ -22,4 +22,11 @@ class Author
   end
 
   def post_count
+    if defined?@@post_count
+      return @@post_count
+    else
+      return nil
+    end
+
+  end
 end
