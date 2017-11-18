@@ -7,10 +7,10 @@ class Song
 
   def artist_name
 
-    if defined?self.artist.name
-      return self.artist.name
-    else
-      return nil
+    defined?self.artist.name ? self.artist.name : nil
+    #   return self.artist.name
+    # else
+    #   return nil
     end
   end
 end
