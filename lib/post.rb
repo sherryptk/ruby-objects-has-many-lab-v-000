@@ -9,7 +9,7 @@ class Post
     if defined? self.author.name
       return self.author.name
     else
-      return nl
+      return nil
     end
   end
 
