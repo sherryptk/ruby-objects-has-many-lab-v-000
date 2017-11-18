@@ -8,6 +8,6 @@ class Author
 
   def add_post(post)
     @posts<<post
-    post.name = self
+    post.author = self
   end
 end
