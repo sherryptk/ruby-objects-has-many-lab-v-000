@@ -11,5 +11,6 @@ class Post
     else
       return nl
     end
+  end
 
 end
