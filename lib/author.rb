@@ -21,7 +21,7 @@ class Author
     post.author = self
   end
 
-  def post_count
+  def self.post_count
     if defined?@@post_count
       return @@post_count
     else
