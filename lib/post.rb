@@ -4,4 +4,12 @@ class Post
   def initialize(title)
     @title = title
   end
+
+  def author_name
+    if defined? self.author.name
+      return self.author.name
+    else
+      return nl
+    end
+
 end
