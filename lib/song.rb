@@ -8,7 +8,7 @@ class Song
   def artist_name
 
     if defined?self.artist.name
-      self.artist.name
+      return self.artist.name
     else
       return nil
     end
