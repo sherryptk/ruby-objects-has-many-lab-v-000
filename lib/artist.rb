@@ -26,6 +26,6 @@ class Artist
   end
 
   def self.song_count
-    @@all.uniq.length
+    @@song_count
   end
 end
